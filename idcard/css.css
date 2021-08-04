@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Numans', sans-serif;
+    margin:0;
+    padding:0;
+}
+/*using rem value unit  because they more stable for making responsive web*/
+body {
+    margin: 5rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #002366;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    width: 1000px;
+    height: 500px;
+}
+
+.cover  {
+    background-image: url(pic/bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    width: 100%;
+}
+
+.title  {
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.desc   {
+    color: white;
+    font-size: 0.7rem;
+    margin: 1rem 2rem;
+}
